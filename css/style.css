@@ -1,5 +1,11 @@
 /* GLOBAL */
 
+/*da togliere e mettere img*/
+.mm-image-box {    
+  background-color: blue;
+  min-height: 100px;
+}
+
 /* HEADER */
 header .mm-header-top {
   height: 35px;
@@ -43,12 +49,14 @@ header .mm-header-bottom img {
   padding: 30px 0;
 }
 
-/*da togliere e mettere img*/
-.mm-image-box {    
-  background-color: blue;
-  min-height: 100px;
+/* playstation 5 */
+.mm-play5 {
+  padding: 40px 0;
 }
 
+.mm-play5 img {
+  width: 100%;  
+}
 
 /* second jumbotron */
 .mm-second-jumbo {
