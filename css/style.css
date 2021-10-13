@@ -1,0 +1,18 @@
+/* GLOBAL */
+
+/* HEADER */
+header .mm-header-top {
+  height: 35px;
+  padding: 0 10px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .mm-header-top img {
+  width: 75px;   
+}
+
+header .mm-header-bottom img {
+  width: 20px;
+}
