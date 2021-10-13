@@ -68,3 +68,17 @@ header .mm-header-bottom img {
   width: 55%;
   margin-bottom: 35px;
 }
+
+/* nuove uscite */
+.mm-nuove-uscite {
+  padding: 30px 0;
+  background-color: #1F1F1F;
+}
+
+.mm-nuove-uscite p {
+  color: white;
+}
+
+.mm-game-card img {
+  width: 100%;
+}
