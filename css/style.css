@@ -19,18 +19,23 @@ header .mm-header-bottom img {
 /*** MAIN ***/
 
 /** jumbotron **/
-.mm-jumbotron-top {
+.mm-jumbotron-top,
+.mm-second-jumbo {
   display: flex;
   align-items: flex-end;
-  height: 550px; 
-  margin-top: 90px;
-  padding: 40px 0;
-  background-image: url(../img/jumbo-bg.png);
   background-size: cover;
   background-position: center; 
 }
 
-.mm-jumbotron-top .mm-jumbo-text {
+.mm-jumbotron-top {
+  margin-top: 90px;
+  background-image: url(../img/jumbo-bg.png);
+  padding: 40px 0;  
+  height: 550px;   
+}
+
+.mm-jumbotron-top .mm-jumbo-text,
+.mm-second-jumbo .mm-jumbo-text {
   color: white;
 }
 
@@ -38,7 +43,20 @@ header .mm-header-bottom img {
   padding: 30px 0;
 }
 
-.mm-image-box {    /*da togliere e mettere img*/
+/*da togliere e mettere img*/
+.mm-image-box {    
   background-color: blue;
   min-height: 100px;
+}
+
+
+/* second jumbotron */
+.mm-second-jumbo {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  padding: 50px 0;
+}
+
+.mm-second-jumbo img {
+  width: 55%;
+  margin-bottom: 35px;
 }
