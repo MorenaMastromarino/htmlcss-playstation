@@ -11,6 +11,28 @@
   padding: 70px 0;
 }
 
+/* buttons */
+.mm-custom-btn {
+  border-radius: 20px;
+  border: 2px solid white; 
+  font-weight: bold; 
+}
+
+.mm-custom-btn:hover, .mm-custom-btn:focus {  
+  border-color: white;
+}
+
+.mm-custom-btn.mm-btn-dark {  
+  background-color: #363636;
+  margin: 0 15px;  
+}
+
+.mm-custom-btn.mm-btn-dark:hover {
+  background-color: #5C636A; 
+  box-shadow: 0.5px 0.5px 0 2px #5C636A, -0.5px -0.5px 0 2px #5C636A; 
+}
+
+
 /*da togliere e mettere img*/
 .mm-image-box {    
   background-color: blue;
@@ -29,7 +51,31 @@ header .mm-header-top img {
   width: 75px;   
 }
 
-header .mm-header-bottom img {
+.mm-header-bottom a {
+  color: black !important;
+}
+.mm-header-bottom .mm-chevron {
+  width: 10px;
+}
+
+.mm-header-bottom .mm-chevron-blue {
+  display: none;
+}
+
+.nav-link:hover .mm-chevron {
+  display: none;
+}
+
+.nav-link:hover .mm-chevron-blue {
+  display: inline-block;
+  width: 10px;
+}
+
+.nav-link:active .mm-chevron-blue {
+  transform: rotate(180deg);  
+}
+
+#lens {
   width: 20px;
 }
 
