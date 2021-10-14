@@ -106,3 +106,27 @@ img.mm-playplus-logo, img.mm-playnow-logo {
   background-color: #161C3B;
   color: white;
 }
+
+/*** FOOTER ***/
+footer {
+  color: white;
+  background-color: #00439C;  
+}
+
+.mm-footer-top ul {
+  list-style: none;
+  font-size: 14px;
+}
+
+.mm-footer-top .mm-country {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+#globe {
+  width: 10px;
+}
+
+.mm-footer-bottom img {
+ width: 120px;
+}
