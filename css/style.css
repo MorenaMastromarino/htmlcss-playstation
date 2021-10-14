@@ -14,7 +14,6 @@
 /* buttons */
 .mm-custom-btn {
   border-radius: 20px;
-  border: 2px solid white; 
   font-weight: bold; 
 }
 
@@ -29,7 +28,16 @@
 
 .mm-custom-btn.mm-btn-dark:hover {
   background-color: #5C636A; 
-  box-shadow: 0.5px 0.5px 0 2px #5C636A, -0.5px -0.5px 0 2px #5C636A; 
+  box-shadow: 0.5px 0.5px 0 2px #5C636A, -0.5px -0.5px 0 2px #5C636A;   
+}
+
+.mm-custom-btn.mm-btn-red {  
+  background-color: #CD3D0F; 
+  border-color: black;   
+}
+
+.mm-custom-btn.mm-btn-red:hover {
+  box-shadow: 0.5px 0.5px 0 2px #CD3D0E, -0.5px -0.5px 0 2px #CD3D0E; 
 }
 
 
@@ -99,6 +107,16 @@ header .mm-header-top img {
 .mm-jumbotron-top .mm-jumbo-text,
 .mm-second-jumbo .mm-jumbo-text {
   color: white;
+}
+
+.mm-jumbotron-bottom img {
+  width: 100%;
+  padding: 4px;
+  border-radius: 20px;
+}
+
+.mm-jumbotron-bottom .mm-active img {
+  border: 2px solid #0072CE;
 }
 
 /* playstation 5 */
