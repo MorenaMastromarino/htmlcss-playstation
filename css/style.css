@@ -1,4 +1,15 @@
 /* GLOBAL */
+.mm-py-30 {
+  padding: 30px 0;
+}
+
+.mm-py-50 {
+  padding: 50px 0;
+}
+
+.mm-py-70 {
+  padding: 70px 0;
+}
 
 /*da togliere e mettere img*/
 .mm-image-box {    
@@ -36,7 +47,6 @@ header .mm-header-bottom img {
 .mm-jumbotron-top {
   margin-top: 90px;
   background-image: url(../img/jumbo-bg.png);
-  padding: 40px 0;  
   height: 550px;   
 }
 
@@ -45,15 +55,7 @@ header .mm-header-bottom img {
   color: white;
 }
 
-.mm-jumbotron-bottom {
-  padding: 30px 0;
-}
-
 /* playstation 5 */
-.mm-play5 {
-  padding: 40px 0;
-}
-
 .mm-play5 img {
   width: 100%;  
 }
@@ -61,7 +63,6 @@ header .mm-header-bottom img {
 /* second jumbotron */
 .mm-second-jumbo {
   background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-  padding: 50px 0;
 }
 
 .mm-second-jumbo img {
@@ -71,7 +72,6 @@ header .mm-header-bottom img {
 
 /* nuove uscite */
 .mm-nuove-uscite {
-  padding: 30px 0;
   background-color: #1F1F1F;
 }
 
@@ -83,3 +83,26 @@ header .mm-header-bottom img {
   width: 100%;
 }
 
+/* playstation plus */
+.mm-play-plus, .mm-play-now {
+  min-height: 246px;  
+}
+
+.mm-play-plus {
+  background-color: #BEBCBB;
+}
+
+.mm-play-plus img, .mm-play-now img {
+  width: 100%;
+}
+
+img.mm-playplus-logo, img.mm-playnow-logo {
+  width: 55%;
+  margin-bottom: 30px;
+}
+
+/* plystation now */
+.mm-play-now {
+  background-color: #161C3B;
+  color: white;
+}
