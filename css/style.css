@@ -220,7 +220,7 @@ header .mm-header-top img {
 
 /* playstation plus */
 .mm-play-plus {
-  min-height: 246px; 
+  min-height: 300px; 
   background-color: #BEBCBB;
 }
 
@@ -248,7 +248,7 @@ img.mm-playnow-logo {
 
 /* plystation now */
 .mm-play-now {
-  min-height: 246px; 
+  min-height: 300px; 
   background-color: #161C3B;
   color: white;
 }
@@ -297,4 +297,13 @@ footer {
 
 .mm-footer-bottom a {
   color: white
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+  .mm-play-plus,
+  .mm-play-now {
+    min-height: 100%; 
+  }
 }
