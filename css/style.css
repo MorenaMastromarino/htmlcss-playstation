@@ -11,6 +11,32 @@
   padding: 70px 0;
 }
 
+.mm-section-title {
+  margin-bottom: 60px;
+}
+
+.mm-text-blue {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: #0072CE;
+}
+
+.mm-text-grey {
+  font-size: 20px;    
+  color: gray;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
 /* buttons */
 .mm-custom-btn {
   border-radius: 20px;
@@ -38,6 +64,11 @@
 
 .mm-custom-btn.mm-btn-red:hover {
   box-shadow: 0.5px 0.5px 0 2px #CD3D0E, -0.5px -0.5px 0 2px #CD3D0E; 
+}
+
+.mm-custom-btn.mm-btn-blue:hover {
+  background-color: #2D64E6;
+  box-shadow: 0.5px 0.5px 0 2px #2D64E6, -0.5px -0.5px 0 2px #2D64E6; 
 }
 
 
@@ -120,8 +151,24 @@ header .mm-header-top img {
 }
 
 /* playstation 5 */
-.mm-play5 img {
+.mm-play5 img,
+.mm-play4 img {
   width: 100%;  
+}
+
+.mm-play5 .mm-products {
+  padding: 0 40px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.mm-play5 .mm-products.mm-active {
+  opacity: 1;
+  border-bottom: 2px solid #0072CE;
+}
+
+.mm-play5 .mm-products:hover {
+  opacity: 1;
 }
 
 /* second jumbotron */
