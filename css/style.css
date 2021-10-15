@@ -269,20 +269,32 @@ footer {
   background-color: #00439C;  
 }
 
-.mm-footer-top ul {
+.mm-footer-top img {
+  width: 100px;
+}
+
+.mm-footer-top ul li {
   list-style: none;
   font-size: 14px;
+  line-height: 30px;
 }
 
 .mm-footer-top .mm-country {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
 #globe {
-  width: 10px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 .mm-footer-bottom img {
- width: 120px;
+ width: 130px;
+ margin-top: 40px;
+ margin-bottom: 10px; 
+}
+
+.mm-footer-bottom a {
+  color: white
 }
