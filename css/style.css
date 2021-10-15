@@ -39,12 +39,10 @@ h3 {
 
 /* buttons */
 .mm-custom-btn {
-  border-radius: 20px;
+  padding: 10px 14px;
+  border-radius: 30px;
   font-weight: bold; 
-}
-
-.mm-custom-btn:hover, .mm-custom-btn:focus {  
-  border-color: white;
+  transition: all 0.3s;
 }
 
 .mm-custom-btn.mm-btn-dark {  
@@ -54,23 +52,42 @@ h3 {
 
 .mm-custom-btn.mm-btn-dark:hover {
   background-color: #5C636A; 
-  box-shadow: 0.5px 0.5px 0 2px #5C636A, -0.5px -0.5px 0 2px #5C636A;   
+  box-shadow: 0 0 0 2px #5C636A, inset 0 0 0 2px white;   
 }
 
 .mm-custom-btn.mm-btn-red {  
   background-color: #CD3D0F; 
-  border-color: black;   
 }
 
 .mm-custom-btn.mm-btn-red:hover {
-  box-shadow: 0.5px 0.5px 0 2px #CD3D0E, -0.5px -0.5px 0 2px #CD3D0E; 
+  box-shadow: 0 0 0 2px #CD3D0E, inset 0 0 0 2px black;  
 }
 
 .mm-custom-btn.mm-btn-blue:hover {
   background-color: #2D64E6;
-  box-shadow: 0.5px 0.5px 0 2px #2D64E6, -0.5px -0.5px 0 2px #2D64E6; 
+  box-shadow: 0 0 0 2px #2D64E6, inset 0 0 0 2px white;  
 }
 
+.mm-custom-btn.mm-btn-light {
+  color: #356AE6;
+  background:rgba(255,255,255, 0.4);
+  border: none;
+  font-weight: 600;
+}
+
+.mm-custom-btn.mm-btn-light:hover {
+  color: #356AE6;
+  background:rgba(255,255,255, 0.5);  
+  box-shadow: 0 0 0 3px #C6C5C5;  
+}
+
+.mm-custom-btn.mm-btn-white {
+  font-weight: 600;  
+}
+
+.mm-custom-btn.mm-btn-white:hover {
+  box-shadow: 0 0 0 2px white, inset 0 0 0 2px #161C3B;    
+}
 
 /*da togliere e mettere img*/
 .mm-image-box {    
@@ -147,7 +164,7 @@ header .mm-header-top img {
 }
 
 .mm-jumbotron-bottom .mm-active img {
-  border: 2px solid #0072CE;
+  box-shadow: 0 0 0 2px #2D64E6;  
 }
 
 /* playstation 5 */
@@ -203,25 +220,30 @@ header .mm-header-top img {
 }
 
 /* playstation plus */
-.mm-play-plus, .mm-play-now {
-  min-height: 246px;  
-}
-
 .mm-play-plus {
+  min-height: 246px; 
   background-color: #BEBCBB;
 }
 
-.mm-play-plus img, .mm-play-now img {
+.mm-play-plus img,
+.mm-play-now img {
   width: 100%;
 }
 
-img.mm-playplus-logo, img.mm-playnow-logo {
+img.mm-playplus-logo,
+img.mm-playnow-logo {
   width: 55%;
+  margin-bottom: 30px;
+}
+
+.mm-play-plus p,
+.mm-play-now p {
   margin-bottom: 30px;
 }
 
 /* plystation now */
 .mm-play-now {
+  min-height: 246px; 
   background-color: #161C3B;
   color: white;
 }
