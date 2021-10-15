@@ -208,7 +208,6 @@ header .mm-header-top img {
   color: white;
 }
 
-
 .mm-nuove-uscite p {
   color: white;
 }
@@ -241,11 +240,27 @@ img.mm-playnow-logo {
   margin-bottom: 30px;
 }
 
+/* sconti */
+.mm-sconti img {
+  width: 100%;
+  cursor: pointer;
+}
+
 /* plystation now */
 .mm-play-now {
   min-height: 246px; 
   background-color: #161C3B;
   color: white;
+}
+
+/* social */
+.mm-social img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.mm-social h4 {
+  font-size: 30px;  
 }
 
 /*** FOOTER ***/
