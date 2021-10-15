@@ -89,12 +89,6 @@ h3 {
   box-shadow: 0 0 0 2px white, inset 0 0 0 2px #161C3B;    
 }
 
-/*da togliere e mettere img*/
-.mm-image-box {    
-  background-color: blue;
-  min-height: 100px;
-}
-
 /* HEADER */
 header .mm-header-top {
   height: 35px;
@@ -147,7 +141,7 @@ header .mm-header-top img {
 }
 
 .mm-jumbotron-top {
-  margin-top: 90px;
+  margin-top: 95px;
   background-image: url(../img/jumbo-bg.png);
   height: 550px;   
 }
@@ -157,14 +151,32 @@ header .mm-header-top img {
   color: white;
 }
 
-.mm-jumbotron-bottom img {
-  width: 100%;
-  padding: 4px;
+.mm-jumbotron-bottom .mm-jumbo-card {  
+  padding: 3px; 
+  opacity: 0.7;
+  cursor: pointer;
   border-radius: 20px;
+  transition: all 0.3s;
 }
 
-.mm-jumbotron-bottom .mm-active img {
+.mm-jumbotron-bottom .mm-jumbo-card img {
+  width: 100%;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+.mm-jumbo-card.mm-active {
   box-shadow: 0 0 0 2px #2D64E6;  
+  opacity: 1;   
+}
+
+.mm-jumbotron-bottom img:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mm-jumbotron-bottom .mm-jumbo-card:hover {
+  transform: translateY(-10px);
+  opacity: 1; 
 }
 
 /* playstation 5 */
@@ -177,6 +189,7 @@ header .mm-header-top img {
   padding: 0 40px;
   text-align: center;
   opacity: 0.7;
+  transition: all 0.4s;
 }
 
 .mm-play5 .mm-products.mm-active {
@@ -277,6 +290,11 @@ footer {
   list-style: none;
   font-size: 14px;
   line-height: 30px;
+}
+
+.mm-footer-top a {
+  text-decoration: none;
+  color: white;
 }
 
 .mm-footer-top .mm-country {
