@@ -186,12 +186,20 @@ header .mm-header-top img {
   background-color: #1F1F1F;
 }
 
+.mm-nuove-uscite h4 {
+  font-size: 27px;
+  color: white;
+}
+
+
 .mm-nuove-uscite p {
   color: white;
 }
 
 .mm-game-card img {
   width: 100%;
+  margin-bottom: 15px;
+  border-radius: 20px;
 }
 
 /* playstation plus */
