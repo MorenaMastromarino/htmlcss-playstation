@@ -1,4 +1,8 @@
 /* GLOBAL */
+body {
+  font-weight: 600;
+}
+
 .mm-py-30 {
   padding: 30px 0;
 }
@@ -101,9 +105,6 @@ header .mm-header-top img {
   width: 75px;   
 }
 
-.mm-header-bottom a {
-  color: black !important;
-}
 .mm-header-bottom .mm-chevron {
   width: 10px;
 }
@@ -112,22 +113,72 @@ header .mm-header-top img {
   display: none;
 }
 
-.nav-link:hover .mm-chevron {
-  display: none;
-}
-
-.nav-link:hover .mm-chevron-blue {
-  display: inline-block;
-  width: 10px;
-}
-
-.nav-link:active .mm-chevron-blue {
-  transform: rotate(180deg);  
+.mm-dropdown-btn {
+  color: black !important;
 }
 
 #lens {
   width: 20px;
 }
+
+/* dropdown menu */
+.mm-dropdown-content {
+  width: 100vw;
+  text-align: center;
+}
+
+.mm-dropdown:hover .mm-dropdown-btn {
+  color: #0372D2 !important;
+}
+
+.mm-dropdown:hover .mm-chevron-blue {
+  display: inline-block;
+  width: 10px;
+  transform: rotate(180deg); 
+}
+
+.mm-dropdown:hover .mm-chevron {
+  display: none;
+}
+
+li.mm-dropdown-link {
+  display: inline-block;
+}
+
+li.mm-dropdown-link img {
+  width: 50px;
+}
+
+.mm-dropdown-content li a:hover{
+  background-color: white;
+  color: #0072CE;
+}
+
+li.mm-dropdown-sublink {
+  display: inline-block;
+  position: relative;
+}
+
+li.mm-dropdown-sublink::before {
+  content: '\022C5';
+  color: #0372D2;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*** MAIN ***/
 
@@ -217,11 +268,19 @@ header .mm-header-top img {
 }
 
 .mm-nuove-uscite h4 {
-  font-size: 27px;
+  font-size: 32px;
   color: white;
 }
 
-.mm-nuove-uscite p {
+.mm-nuove-uscite h6 {
+  font-size: 23px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.mm-game-card {
+  margin-bottom: 50px;
+  cursor: pointer;
   color: white;
 }
 
@@ -229,6 +288,11 @@ header .mm-header-top img {
   width: 100%;
   margin-bottom: 15px;
   border-radius: 20px;
+  transition: transform 0.4s;
+}
+
+.mm-game-card img:hover {
+  transform: scale(1.04);
 }
 
 /* playstation plus */
