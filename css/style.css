@@ -122,6 +122,10 @@ header .mm-header-top img {
 }
 
 /* dropdown menu */
+li.mm-dropdown {
+  position: static;
+}
+
 .mm-dropdown-content {
   width: 100vw;
   text-align: center;
@@ -389,3 +393,4 @@ footer {
     min-height: 100%; 
   }
 }
+
